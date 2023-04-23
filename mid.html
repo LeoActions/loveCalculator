@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="square1"></div>
+    <div class="square"></div>
+    <div class="container">
+      <div class="content">
+        <img src="" alt="" />
+        <h1 id="print">Outcome</h1>
+        <p class="subtext">You match, Yay! Giver her a ring already</p>
+        <img src="Group 1.png" alt="" class="illoHigh" />
+        <p id="statement"></p>
+
+        <a href="#" onclick="love2()"><div class="btn">Calculate again</div></a>
+      </div>
+    </div>
+    <script>
+      const item = JSON.parse(localStorage.getItem('items'));
+      document.getElementById('print').textContent = item.score + '%';
+    </script>
+  </body>
+</html>
