@@ -49,17 +49,16 @@ body {
 
 .inputarea input {
   width: 844px;
-  height: 20px;
+  height: 104px;
   text-align: center;
   justify-content: center;
   margin: 0px 0px 30px 0px;
   outline: none;
   border: 2px solid #000;
   padding: 20px 40px;
-  font-size: 12px;
+  font-size: 20px;
 }
 .btn {
-  margin: 0;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
